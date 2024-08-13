@@ -103,10 +103,14 @@ button:active {
   .buttons {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-left: 20px;
   }
 
   button {
     width: 100%; /* Make buttons full width on smaller screens */
+    align-items: center;
+    justify-content: center;
   }
 }
 
