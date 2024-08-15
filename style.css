@@ -151,8 +151,9 @@ button:active {
   }
 
   .content {
-    width: 90%; /* Adjust width to fit smaller screens */
+    width: 80%; /* Adjust width to fit smaller screens */
     padding: 20px;
+    margin-left: 15px;
     box-sizing: border-box;
   }
 
@@ -168,7 +169,7 @@ button:active {
   .buttons {
     flex-direction: column;
     align-items: center;
-    width: 300px;
+    width: 260px;
     gap: 10px; /* Less gap between buttons on mobile */
   }
 
