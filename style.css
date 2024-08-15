@@ -155,6 +155,7 @@ button:active {
     padding: 20px;
     margin-left: 15px;
     box-sizing: border-box;
+    height: 625px;
   }
 
   h1 {
