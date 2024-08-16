@@ -196,22 +196,25 @@ button:active {
   }
 
   .background {
-    height: 100%;
+    height: 160%;
+    width: 160%;
     background-size: cover;
     background-position: center;
   }
 
   .content {
-    width: 90%; /* Reduce width further for smaller screens */
-    padding: 15px;
-    margin: 0 auto;
+    margin-top: 80px;
+    width: 70%; /* Adjust width to fit smaller screens */
+    padding: 20px;
+    margin-left: 120px;
     box-sizing: border-box;
-    height: 500px; /* Let content determine the height */
+    height: 650px;
   }
 
   .logo {
-    max-width: 150px; /* Smaller logo for very small screens */
-    margin-bottom: 15px;
+    max-width: 28000px; /* Smaller logo for very small screens */
+    max-height: 1000px;
+    margin-bottom: 10px;
   }
 
   h1 {
@@ -227,18 +230,21 @@ button:active {
   .buttons {
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Smaller gap between buttons */
+    gap: 15px; /* Smaller gap between buttons */
+    padding-left: 40px;
+    padding-right: 100px;
+    width: 270px;
   }
 
   button {
     width: 100%; /* Make buttons full width on very small screens */
     padding: 0.6em 1.2em;
-    font-size: 0.9rem; /* Adjust font size for buttons */
+    font-size: 1.4rem; /* Adjust font size for buttons */
   }
   #club {
-    width: 130px;
+    width: 195px;
   }
   .logo {
-    max-width: 100px;
+    max-width: 200px;
   }
 }
