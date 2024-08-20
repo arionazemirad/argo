@@ -188,63 +188,44 @@ button:active {
   html,
   body {
     height: 100%;
-    margin: 0;
-    font-family: "Poppins", Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .background {
-    height: 160%;
-    width: 160%;
-    background-size: cover;
-    background-position: center;
+    height: 100%; /* Ensures the background covers the full height */
   }
 
   .content {
-    margin-top: 80px;
-    width: 70%; /* Adjust width to fit smaller screens */
-    padding: 20px;
-    margin-left: 120px;
+    width: 90%; /* Increase width to fit even smaller screens */
+    padding: 15px;
+    margin: 0 auto; /* Center the content horizontally */
     box-sizing: border-box;
-    height: 650px;
-  }
-
-  .logo {
-    max-width: 28000px; /* Smaller logo for very small screens */
-    max-height: 1000px;
-    margin-bottom: 10px;
+    height: 600px; /* Allow content to grow based on content */
   }
 
   h1 {
-    font-size: 2em; /* Smaller font size for very small screens */
-    margin-bottom: 10px;
+    font-size: 1.8em; /* Smaller font size for smaller screens */
   }
 
   p {
-    font-size: 1.5em; /* Adjust font size for very small screens */
+    font-size: 1em; /* Further adjust font size for mobile */
     margin-bottom: 15px;
   }
 
   .buttons {
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 15px; /* Smaller gap between buttons */
-    padding-left: 40px;
-    padding-right: 100px;
-    width: 270px;
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically if needed */
+    width: 100%; /* Ensure the buttons container takes full width */
+    margin: 0 auto; /* Center the buttons container */
+    gap: 8px; /* Reduce gap between buttons on smaller screens */
   }
 
   button {
-    width: 100%; /* Make buttons full width on very small screens */
-    padding: 0.6em 1.2em;
-    font-size: 1.4rem; /* Adjust font size for buttons */
+    width: 100%; /* Make buttons full width on smaller screens */
   }
+
   #club {
-    width: 195px;
-  }
-  .logo {
-    max-width: 200px;
+    width: 200px; /* Adjust the width for #club */
   }
 }
